@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Josefin+Sans:ital,wght@0,500;1,500&family=Lato:ital,wght@0,700;1,400&family=Roboto+Slab&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar section */
+
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    background-color: #48dbfb;
+    font-family: 'Roboto Slab', serif;
+}
+
+ #identity{
+     font-size: 2.6rem;
+     margin: 1rem;
+     margin-left: 4rem;
+     
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.3rem;
+    margin-right: 1rem;
+    font-size: 1.7rem;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+ul li a{
+    margin: 1rem;
+    color: #001921;
+    letter-spacing: .2rem;
+    text-decoration: none;
+}
+    
+
+/* End navbar */
+
+/* About section */
+
+#about{
+    background: linear-gradient(20deg, #34ace0 100%,  #227093 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Roboto Slab', serif;
+}
+
+#greeting{
+    font-size: 2rem;
+    letter-spacing: .25rem;
+}
+
+
+#subparagraph{
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+#about, #btnContact{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+#btnContact{
+    font-size: 2rem;
+    padding: .9rem;
+    cursor: pointer;
+    background-color: #001921;
+    color: #18dcff;
+    letter-spacing: .15rem;
+    border: 3px solid #273c75;
+    border-radius: 15%;
+    box-shadow: 0px 0px 10px 2px #000;
+}
+
+
+#btnContact:active{
+    background-color: #18dcff;
+    color: #001921;
+}
+
+/* End about */
+
+
+/* Skills section */
+
+
+#skills{
+    background-color: #273c75;
+    min-height: 40vh;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#header{
+    margin: 1rem;
+    font-size: 2.3rem;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: .1rem;
+    color: #18dcff;
+    border-bottom: 3px solid #34ace0;
+    line-height: 200%;
+    
+}
+
+#gridBars{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-left: 2.5rem;
+    font-size: 1.25rem;
+    color: #18dcff;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+#bar{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: .6rem;
+}
+
+
+/*
+.skill{
+    width: 100%;
+    max-width: 300px;
+    background-color: grey;
+    border: 2px solid black;
+    height: 20px;
+    position: absolute;
+}*/
+
+#percentHtml{
+    margin-left: 12.7rem;
+}
+
+#percentCss{
+    margin-left: 14rem;
+}
+
+
+#percentJs{
+    margin-left: 8.9rem;
+}
+
+#percentPy{
+    margin-left: 11rem;
+}
+
+
+
+.skillHtml{
+    background-color: #18dcff;
+    height: 20px;
+    margin-top: 1rem;
+    /*position: relative;*/
+    border: 2px solid black;
+    /*border-right: none;*/
+    width: 195px;
+    animation: barHtml 3s ease-in-out forwards;
+}
+
+@keyframes barHtml{
+    from
+    {
+        width: 0;
+    }
+    
+    
+}
+
+.skillCss{
+    background-color: #18dcff;
+    height: 20px;
+    margin-top: 1rem;
+    /*position: relative;*/
+    border: 2px solid black;
+    /*border-right: none;*/
+    width: 30%;
+    animation: barCss 3s ease-in-out forwards;
+}
+
+@keyframes barCss{
+    from
+    {
+        width: 0;
+    }
+}
+
+
+.skillJs{
+    background-color: #18dcff;
+    height: 20px;
+    margin-top: 1rem;
+    /*position: relative;*/
+    border: 2px solid black;
+    /*border-right: none;*/
+    width: 90px;
+    animation: barJs 3s ease-in-out forwards;
+}
+
+
+@keyframes barJs{
+    from
+    {
+        width: 0;
+    }
+}
+
+
+
+.skillPy{
+    background-color: #18dcff;
+    height: 20px;
+    margin-top: 1rem;
+    /*position: relative;*/
+    border: 2px solid black;
+    /*border-right: none;*/
+    width: 120px;
+    animation: barPy 3s ease-in-out forwards;
+
+}
+
+@keyframes barPy{
+    from
+    {
+        width: 0;
+    }
+}
+
+/* End section */
+
+
+/* Projects section */
+
+#projects{
+    background-color: #192a56;
+    
+}
+
+#projectHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    margin: 1rem;
+    font-size: 2.3rem;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: .1rem;
+    color: #18dcff;
+    border-bottom: 3px solid #34ace0;
+    line-height: 200%;
+}
+
+#imagesGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+
+
+#imageFlex{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    margin: 1rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+.image{
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+    cursor: pointer;
+}
+
+
+
+.imgTxt{
+    background-color: #18dcff;
+    border: 3px solid;
+    margin: -2px;
+    text-align: center;
+    cursor: pointer;
+}
+

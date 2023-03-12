@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!--  Navigation bar  --> 
+
+    <div id="navBar">
+        <label id="identity"><strong>Andrea Foriglio</strong></label> 
+        <ul>    
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>
+    </div>
+
+<!--                     -->
+
+<!-- About section -->
+
+    <section id="about">
+        <div>
+            <h1 id="greeting">Hello there, I'm a programmer</h1>
+            <h3 id="subparagraph">This is a simple portfolio</h3>
+            <button id="btnContact">Contact me</button>
+        </div>
+    </section>
+
+<!-- skills section -->
+
+    <section id="skills">
+        <div class="heading">
+            <label id="header">Skills</label>
+        </div>
+        <div id="gridBars">
+            <div id="bar">
+                <div class="skill"></div>
+                <div id="skillText">
+                    <label id="program">HTML</label>
+                    <label id="percentHtml">65%</label>
+                    <div class="skillHtml"></div>
+                </div>
+            </div>
+            <div id="bar">
+                <div class="skill"></div>
+                <div id="skillText">
+                    <label id="program">CSS</label>
+                    <label id="percentCss">30%</label>
+                    <div class="skillCss"></div> 
+                </div>
+            </div>
+            <div id="bar">
+                <div class="skill"></div>
+                <div id="skillText">
+                    <label id="program">JAVASCRIPT</label>
+                    <label id="percentJs">20%</label>
+                    <div class="skillJs"></div> 
+                </div>
+            </div>
+            <div id="bar">
+                <div class="skill"></div>
+                <div id="skillText">
+                    <label id="program">PYTHON</label>
+                    <label id="percentPy">40%</label>
+                    <div class="skillPy"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--                  -->
+
+
+<!-- Projects section -->
+    <section id="projects">
+        <div id="projectHeader">
+            <label id="title">Projects</label>
+        </div>
+        <div id="imagesGrid">
+            <div id="imageFlex">
+                <image src="FotoP1.PNG" id="photo1" class="image"></image>
+                <figcaption class="imgTxt">Number guessing game</figcaption>
+            </div>
+            <div id="imageFlex">
+                <image src="FotoP2.PNG" id="photo2" class="image"></image>
+                <figcaption class="imgTxt">Accordion menu</figcaption>
+            </div>
+            <div id="imageFlex">
+                <image src="FotoP3.PNG" id="photo3" class="image"></image>
+                <figcaption class="imgTxt">Countdown</figcaption>
+            </div>
+            <div id="imageFlex">
+                <image src="FotoP4.PNG" id="photo4" class="image"></image>
+                <figcaption class="imgTxt">Password generator</figcaption>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
